@@ -4,10 +4,68 @@ The bellow is just an example, feel free to disregard this documents contents.
 
 Your final settings.txt will look something like this when you are finished:
 
+
+Favourite Wallpaper with a4 settings:
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 120; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points
+
+// left side(top to bottom)
+var left1x = 50;
+var left2x = 45;
+var left3x = 25; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 70;
+var right2x = 75; 
+var right3x = 95; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 61;
+var blob1y = 120; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
+
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(A4);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
 /////////////////////////////////
 Wallpaper 1:
 
-s
 var h1 = 5;
 var h2 = 30; 
 var h3 = 120; 
@@ -31,7 +89,7 @@ var right4x = 80;
 var right5x = 125;
 
 //blobs
-var blob1x = 60;
+var blob1x = 61;
 var blob1y = 120; 
 
 var blob2x = 30; 
@@ -52,6 +110,16 @@ var blob6y= 70;
 var blob7x = 70; 
 var blob7y = 50;
 
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
 /////////////////////////////////
 Wallpaper 2:
 
@@ -99,6 +167,17 @@ var blob6y= 70;
 
 var blob7x = 70; 
 var blob7y = 60;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
 /////////////////////////////////
 Wallpaper 3: 
 
@@ -147,6 +226,17 @@ var blob6y= 70;
 var blob7x = 60; 
 var blob7y = 90;
 
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
 ////////////////////////////////
 Wallpaper 4: 
 
@@ -194,6 +284,17 @@ var blob6y= 70;
 
 var blob7x = 50; 
 var blob7y = 110;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
 ////////////////////////////////
 Wallpaper 5: 
 
@@ -241,6 +342,17 @@ var blob6y= 70;
 
 var blob7x = 70; 
 var blob7y = 50;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
 ////////////////////////////////
 Wallpaper 6: 
 
@@ -287,6 +399,17 @@ var blob6y= 70;
 
 var blob7x = 70; 
 var blob7y = 50;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
 
 ////////////////////////////////
 
@@ -337,6 +460,17 @@ var blob6y= 70;
 var blob7x = 70; 
 var blob7y = 50;
 
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
 ////////////////////////////////
 
 Wallpaper 8: 
@@ -385,6 +519,17 @@ var blob6y= 70;
 var blob7x = 70; 
 var blob7y = 50;
 
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
 ////////////////////////////////
 Wallpaper:9 
 
@@ -432,3 +577,13 @@ var blob6y= 70;
 var blob7x = 70; 
 var blob7y = 50;
 
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 110;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}

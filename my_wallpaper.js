@@ -9,28 +9,28 @@ let rect_height = 20;
 
 var h1 = 5;
 var h2 = 30; 
-var h3 = 130; 
+var h3 = 120; 
 var h4 = 155; 
 var h5 = 190; 
-// x coordinates of quad points, named as colours because it is confusing
+// x coordinates of quad points
 
 // left side(top to bottom)
-var left1x = 45;
-var left2x = 40;
-var left3x = 15; 
+var left1x = 50;
+var left2x = 45;
+var left3x = 25; 
 var left4x = 40 ;
 var left5x = 5; //this is the x of the left block out sides
 
 //right side(top to bottom)
 
-var right1x = 75;
-var right2x = 80; 
-var right3x = 105; 
+var right1x = 70;
+var right2x = 75; 
+var right3x = 95; 
 var right4x = 80;
 var right5x = 125;
 
 //blobs
-var blob1x = 49;
+var blob1x = 61;
 var blob1y = 120; 
 
 var blob2x = 30; 
@@ -53,15 +53,9 @@ var blob7y = 50;
 
 
 
-
-
-//-------------------------------------
-// To here 
-//-------------------------------------
-
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(FIT_TO_SCREEN);
+  pWallpaper.resolution(NINE_LANDSCAPE);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
@@ -70,46 +64,49 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.grid_settings.row_offset  = 50;
 }
 
+//-------------------------------------
+// To here 
+//-------------------------------------
+
+
 function wallpaper_background() {
   background(171, 220, 214);
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-  // Check if blob1x is greater than a threshold
 
-
-//colours
-var blobcolour = color(112, 177, 225) //lime green currently
-var glasscolour = color(156, 203, 59,) //
-var standcolour = color(255,255,255) // 
-var backgroundcolour = color(171, 220, 214)// 
-var rectanglecolour = color(171, 220, 214)// 
+//Deafault colours
+var blobcolour = color(112, 177, 225) //Lime green
+var glasscolour = color(156, 203, 59,) //Sky Blue
+var standcolour = color(255,255,255) // White
+var backgroundcolour = color(171, 220, 214)// Turquiose
+var rectanglecolour = color(171, 220, 214)// Turquiose
 
 
 //Background rectangle so that background changes each time without changing background colour 
 if (blob1x ==49 ) {
-  fill(240, 199, 136);// Change fill color to light orange if condition is met
+  fill(240, 199, 136);// Change fill color to light orange if x coordinate is 49
   stroke(240, 199, 136);
 } else if (blob1x == 40) {
-  fill(119, 207, 230); // Change fill color to sky blue if x-coordinate is 400
+  fill(119, 207, 230); // Change fill color to sky blue if x coordinate is 400
   stroke(119, 207, 230);
 } else if (blob1x == 90) {
-  fill(131, 204, 172); // Change fill color to light green if x-coordinate is 90
+  fill(131, 204, 172); // Change fill color to light green if x coordinate is 90
   stroke(131, 204, 172);
 } else if (blob1x == 59) {
-  fill(191, 154, 200); // Change fill color to  light purple if x-coordinate is 90
+  fill(191, 154, 200); // Change fill color to  light purple if x coordinate is 90
   stroke(191, 154, 200);
 } else if (blob1x == 45) {
-  fill(247, 178, 208); // Change fill color to light pink if x-coordinate is 90
+  fill(247, 178, 208); // Change fill color to light pink if x coordinate is 90
   stroke(247, 178, 208);
 } else if (blob1x == 55) {
-  fill(43, 49, 141); // Change fill color to  dark blue if x-coordinate is 90
+  fill(43, 49, 141); // Change fill color to  dark blue if x coordinate is 90
   stroke(43, 49, 141);
 } else if (blob1x == 60) {
-  fill(251, 242, 129); // Change fill color to yellow  if x-coordinate is 90
+  fill(251, 242, 129); // Change fill color to yellow  if x coordinate is 90
   stroke(251, 242, 129);
 } else if (blob1x == 65) {
-  fill(24, 183, 228); // Change fill color to sky blue  if x-coordinate is 90
+  fill(24, 183, 228); // Change fill color to sky blue  if x coordinate is 90
   stroke(24, 183, 228);
 } else {
   fill(rectanglecolour); // Otherwise, use the original blobcolor
@@ -119,9 +116,8 @@ rect(0,0,110,200)
 
 //glass part
 //if statement reworded from chatgpt
-//this was reworded from chatgpt
 if (blob1x ==49 ) {
-  fill(249, 159, 37);// Change fill color to orange if condition is met
+  fill(249, 159, 37);// Change fill color to Orange if condition is met
   stroke(249, 159, 37);// /\
 } else if (blob1x == 40) {
   fill(105, 50, 147); // Change fill color to purple if x-coordinate is 400
@@ -207,19 +203,19 @@ if (blob1x ==49 ) {
   fill(24, 97, 49); // Change fill color to  dark green if x-coordinate is 90
   stroke(24, 97, 49);
 } else if (blob1x == 59) {
-  fill(238, 74, 154); // Change fill color to  purple if x-coordinate is 90
+  fill(238, 74, 154); // Change fill color to neon pink purple if x-coordinate is 90
   stroke(238, 74, 154);
 } else if (blob1x == 45) {
-  fill(228, 77, 115); // Change fill color to  pink if x-coordinate is 90
+  fill(228, 77, 115); // Change fill color to pink if x-coordinate is 90
   stroke(228, 77, 115);
 } else if (blob1x == 55) {
-  fill(156, 203, 60); // Change fill color to   if x-coordinate is 90
+  fill(156, 203, 60); // Change fill color to  Lime green if x-coordinate is 90
   stroke(156, 203, 60);
 } else if (blob1x == 60) {
-  fill(249, 159, 37); // Change fill color to   if x-coordinate is 90
+  fill(249, 159, 37); // Change fill color to  Orange if x-coordinate is 90
   stroke(249, 159, 37);
 } else if (blob1x == 65) {
-  fill(162, 206, 92); // Change fill color to   if x-coordinate is 90
+  fill(162, 206, 92); // Change fill color to  Light green if x-coordinate is 90
   stroke(162, 206, 92);
 } else {
 fill(standcolour); // Otherwise, use the original blobcolor
