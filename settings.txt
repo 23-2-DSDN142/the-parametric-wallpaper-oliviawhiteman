@@ -5,9 +5,9 @@ The bellow is just an example, feel free to disregard this documents contents.
 Your final settings.txt will look something like this when you are finished:
 
 /////////////////////////////////
-
 Wallpaper 1:
 
+s
 var h1 = 5;
 var h2 = 30; 
 var h3 = 120; 
@@ -53,8 +53,8 @@ var blob7x = 70;
 var blob7y = 50;
 
 /////////////////////////////////
-
 Wallpaper 2:
+
 
 var h1 = 5;
 var h2 = 30; 
@@ -100,8 +100,9 @@ var blob6y= 70;
 var blob7x = 70; 
 var blob7y = 60;
 /////////////////////////////////
-
 Wallpaper 3: 
+
+
 var h1 = 5;
 var h2 = 30; 
 var h3 = 120; 
@@ -148,3 +149,286 @@ var blob7y = 90;
 
 ////////////////////////////////
 Wallpaper 4: 
+
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 120; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 50;
+var left2x = 45;
+var left3x = 25; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 70;
+var right2x = 75; 
+var right3x = 95; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 90;
+var blob1y = 105; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 80; 
+var blob3y = 40; 
+
+var blob4x =  45; 
+var blob4y =  55; 
+
+var blob5x = 40; 
+var blob5y = 80; 
+
+var blob6x = 70; 
+var blob6y= 70; 
+
+var blob7x = 50; 
+var blob7y = 110;
+////////////////////////////////
+Wallpaper 5: 
+
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 130; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 45;
+var left2x = 40;
+var left3x = 15; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 75;
+var right2x = 80; 
+var right3x = 105; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 59;
+var blob1y = 130; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
+////////////////////////////////
+Wallpaper 6: 
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 130; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 45;
+var left2x = 40;
+var left3x = 15; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 75;
+var right2x = 80; 
+var right3x = 105; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 45;
+var blob1y = 130; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
+
+////////////////////////////////
+
+Wallpaper 7:
+
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 130; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 45;
+var left2x = 40;
+var left3x = 15; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 75;
+var right2x = 80; 
+var right3x = 105; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 55;
+var blob1y = 130; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
+
+////////////////////////////////
+
+Wallpaper 8: 
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 130; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 45;
+var left2x = 40;
+var left3x = 15; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 75;
+var right2x = 80; 
+var right3x = 105; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 60;
+var blob1y = 130; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
+
+////////////////////////////////
+Wallpaper:9 
+
+var h1 = 5;
+var h2 = 30; 
+var h3 = 130; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 45;
+var left2x = 40;
+var left3x = 15; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 75;
+var right2x = 80; 
+var right3x = 105; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 65;
+var blob1y = 120; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
+
