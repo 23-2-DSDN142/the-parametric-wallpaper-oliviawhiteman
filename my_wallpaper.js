@@ -7,7 +7,6 @@ let rect_height = 20;
 //COPY AND PASTE VARIABLES FROM HERE\/
 //-------------------------------------
 
-// y coordinates of quad points
 var h1 = 5;
 var h2 = 30; 
 var h3 = 120; 
@@ -31,26 +30,31 @@ var right4x = 80;
 var right5x = 125;
 
 //blobs
-var blob1x = 59;
-var blob1y = 120; 
+var blob1x = 40;
+var blob1y = 110; 
 
 var blob2x = 30; 
-var blob2y = 100; 
+var blob2y = 70; 
 
-var blob3x = 85; 
-var blob3y = 80; 
+var blob3x = 80; 
+var blob3y = 100; 
 
-var blob4x =  45; 
-var blob4y =  40; 
+var blob4x =  65; 
+var blob4y =  50; 
 
-var blob5x = 60; 
+var blob5x = 40; 
 var blob5y = 90; 
 
-var blob6x = 45; 
+var blob6x = 55; 
 var blob6y= 70; 
 
-var blob7x = 70; 
-var blob7y = 50; 
+var blob7x = 60; 
+var blob7y = 90;
+
+
+
+
+
 //-------------------------------------
 // To here 
 //-------------------------------------
@@ -83,12 +87,19 @@ var backgroundcolour = color(171, 220, 214)// empty value so that background con
 
 //glass part
 //if statement reworded from chatgpt
-if (blob1x < 60) {
-  fill(249, 159, 37) //change colour to red if x is greater than 60
+//this was reworded from chatgpt
+if (blob1x ==49 ) {
+  fill(249, 159, 37);// Change fill color to orange if condition is met
   stroke(249, 159, 37);// /\
-} else if (blob1x > 61) {
-  fill(105, 50, 147); // Change colour to blue if x is greater than 60
+} else if (blob1x == 40) {
+  fill(105, 50, 147); // Change fill color to purple if x-coordinate is 400
   stroke(105, 50, 147);
+} else if (blob1x == 90) {
+  fill(214, 223, 36); // Change fill color to  yellow if x-coordinate is 90
+  stroke(214, 223, 36);
+} else if (blob1x == 59) {
+  fill(225, 43, 58); // Change fill color to  red if x-coordinate is 90
+  stroke(225, 43, 58);
 } else {
   fill(glasscolour); // Otherwise, use the original blobcolor
 stroke(glasscolour);
@@ -99,12 +110,18 @@ quad(left2x,h2,right2x,h2,right3x,h3,left3x,h3)
 //blobs
 
 //this was reworded from chatgpt
-if (blob1x < 60) {
-  fill(247, 236, 31);
-  stroke(247, 236, 31) // Change fill color to  if condition is met
-} else if (blob1x > 61) {
-  fill(191, 79, 157); // Change fill color to  if x-coordinate is greater than 100
+if (blob1x ==49 ) {
+  fill(247, 236, 31);// Change fill color to yellow if condition is met
+  stroke(247, 236, 31);// /\
+} else if (blob1x == 40) {
+  fill(191, 79, 157); // Change fill color to pink if x-coordinate is 400
   stroke(191, 79, 157);
+} else if (blob1x == 90) {
+  fill(95, 187, 70); // Change fill color to  green if x-coordinate is 90
+  stroke(95, 187, 70);
+} else if (blob1x == 59) {
+  fill(105, 50, 147); // Change fill color to  purple if x-coordinate is 90
+  stroke(105, 50, 147);
 } else {
   fill(blobcolour); // Otherwise, use the original blobcolor
 stroke(blobcolour);
@@ -124,14 +141,20 @@ ellipse(blob7x,blob7y,5,5)//7
 
 //structure/metal part 
 //if statement reworded from chatgpt
-if (blob1x < 60) {
-  fill(198, 33, 39) //change colour to red if x is greater than 60
+if (blob1x ==49 ) {
+  fill(198, 33, 39);// Change fill color to red if condition is met
   stroke(198, 33, 39);// /\
-} else if (blob1x > 61) {
-  fill(43, 49, 141); // Change colour to blue if x is greater than 60
+} else if (blob1x == 40) {
+  fill(43, 49, 141); // Change fill color to blue if x-coordinate is 400
   stroke(43, 49, 141);
+} else if (blob1x == 90) {
+  fill(24, 97, 49); // Change fill color to  dark green if x-coordinate is 90
+  stroke(24, 97, 49);
+} else if (blob1x == 59) {
+  fill(238, 74, 154); // Change fill color to  purple if x-coordinate is 90
+  stroke(238, 74, 154);
 } else {
-  fill(standcolour); // Otherwise, use the original blobcolor
+fill(standcolour); // Otherwise, use the original blobcolor
 stroke(standcolour);
 }
 quad(left1x,h1,right1x,h1,right2x,h2,left2x,h2)

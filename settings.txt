@@ -8,46 +8,143 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+var h1 = 5;
+var h2 = 30; 
+var h3 = 120; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+// left side(top to bottom)
+var left1x = 50;
+var left2x = 45;
+var left3x = 25; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
+//right side(top to bottom)
+
+var right1x = 70;
+var right2x = 75; 
+var right3x = 95; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 60;
+var blob1y = 120; 
+
+var blob2x = 30; 
+var blob2y = 100; 
+
+var blob3x = 85; 
+var blob3y = 80; 
+
+var blob4x =  45; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 45; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 50;
 
 /////////////////////////////////
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+var h1 = 5;
+var h2 = 30; 
+var h3 = 120; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+// left side(top to bottom)
+var left1x = 50;
+var left2x = 45;
+var left3x = 25; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
+//right side(top to bottom)
+
+var right1x = 70;
+var right2x = 75; 
+var right3x = 95; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 49;
+var blob1y = 120; 
+
+var blob2x = 30; 
+var blob2y = 90; 
+
+var blob3x = 85; 
+var blob3y = 100; 
+
+var blob4x =  55; 
+var blob4y =  40; 
+
+var blob5x = 60; 
+var blob5y = 90; 
+
+var blob6x = 55; 
+var blob6y= 70; 
+
+var blob7x = 70; 
+var blob7y = 60;
+/////////////////////////////////
+
+Wallpaper 3: 
+var h1 = 5;
+var h2 = 30; 
+var h3 = 120; 
+var h4 = 155; 
+var h5 = 190; 
+// x coordinates of quad points, named as colours because it is confusing
+
+// left side(top to bottom)
+var left1x = 50;
+var left2x = 45;
+var left3x = 25; 
+var left4x = 40 ;
+var left5x = 5; //this is the x of the left block out sides
+
+//right side(top to bottom)
+
+var right1x = 70;
+var right2x = 75; 
+var right3x = 95; 
+var right4x = 80;
+var right5x = 125;
+
+//blobs
+var blob1x = 40;
+var blob1y = 110; 
+
+var blob2x = 30; 
+var blob2y = 70; 
+
+var blob3x = 80; 
+var blob3y = 100; 
+
+var blob4x =  65; 
+var blob4y =  50; 
+
+var blob5x = 40; 
+var blob5y = 90; 
+
+var blob6x = 55; 
+var blob6y= 70; 
+
+var blob7x = 60; 
+var blob7y = 90;
+
+////////////////////////////////
+Wallpaper 4: 
